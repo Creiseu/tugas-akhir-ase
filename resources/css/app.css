@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import "main.css";
+@import '~bootstrap/scss/bootstrap';
+
+
+@font-face {
+    font-family: 'MyCustomFont-Bold'; /* Replace with your desired font name */
+    src: url('/fonts/BeaufortforLOL-Bold.otf') format('opentype');
+}
+@font-face {
+    font-family: 'MyCustomFont-Regular'; /* Replace with your desired font name */
+    src: url('/fonts/BeaufortforLOL-Regular.otf') format('opentype');
+}
